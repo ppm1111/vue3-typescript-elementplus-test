@@ -5,6 +5,8 @@ import {
   Location,
   Setting,
 } from "@element-plus/icons-vue";
+import Logo from "./logo.vue";
+
 const handleOpen = (key: string, keyPath: string[]) => {
   console.log(key, keyPath);
 };
@@ -17,6 +19,7 @@ const handleClose = (key: string, keyPath: string[]) => {
   <el-row class="tac">
     <el-col :span="6">
       <el-scrollbar height="100vh" always="true">
+        <Logo />
         <el-menu
           active-text-color="#ffd04b"
           background-color="#545c64"
