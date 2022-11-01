@@ -9,8 +9,6 @@
   position: relative;
   width: 100%;
   height: 48px;
-  text-align: center;
-  overflow: hidden;
   background-image: url("../assets/Google-01.png");
   background-size: contain;
   background-repeat: no-repeat;
